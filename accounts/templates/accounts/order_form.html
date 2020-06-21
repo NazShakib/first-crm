@@ -1,0 +1,39 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+{% block body %}
+
+<div class='row'>
+  <div class = 'col-3'>
+  </div>
+    <div class='col-6'>
+      <div class='card card-body'>
+
+ <form action="" method='POST'>
+ {% csrf_token %}
+ {{ formset.management_form }}
+ {% for forms in form %}
+ 
+  {{ forms }}
+  <hr>
+
+ {% endfor %}
+
+ {% comment %} {{ formset }} {% endcomment %}
+   
+<br>
+<div class='text-center mt-1'>
+  <input class='btn btn-info center-block' type="submit" value="Submit">
+</div>
+</form>  
+   </div>
+  </div> 
+  <div class='col-3'>
+  </div>
+</div>
+
+
+
+{% endblock body %}
+
+
+
