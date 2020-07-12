@@ -25,7 +25,7 @@ SECRET_KEY = 'lqsp@_*c6)+u3b0+m93w**rxxz40%ghl%1o3l8coocd6!f(pe0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['crm-sakib.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
