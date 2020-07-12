@@ -7,6 +7,7 @@ colorama==0.4.3
 distlib==0.3.0
 Django==3.0.6
 django-filter==2.3.0
+djangorestframework==3.11.0
 filelock==3.0.12
 gunicorn==20.0.4
 isort==4.3.21
@@ -15,7 +16,6 @@ mccabe==0.6.1
 numpy==1.18.4
 pandas==1.0.3
 Pillow==7.1.2
-pip==20.1.1
 pipenv==2018.11.26
 psycopg2==2.8.5
 pycodestyle==2.6.0
@@ -24,7 +24,6 @@ pylint-django==2.0.15
 pylint-plugin-utils==0.6
 python-dateutil==2.8.1
 pytz==2020.1
-setuptools==46.2.0
 six==1.14.0
 sqlparse==0.3.1
 toml==0.10.1
