@@ -156,7 +156,7 @@ def createOrder(request, pk):
         if formset.is_valid:
             formset.save()
             return redirect('/')
-    context = {'formset': formset}
+    context = {'form': formset}
     return render(request, 'accounts/order_form.html', context)
 
 @login_required(login_url='login')
@@ -170,7 +170,7 @@ def updateOrder(request, pk):
         if form.is_valid:
             form.save()
             return redirect('/')
-    context = {'forms': form}
+    context = {'form': form}
     return render(request, 'accounts/order_form.html', context)
 
 
