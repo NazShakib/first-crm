@@ -1,28 +1,24 @@
-# first-crm
-
-## you can download and clone the code from here
-## clone command : git clone git_url
 
 ## you may run this project if you follow those steps
 
 ### step 1
 
 download/ clone this project from github
-```git clone git_url ```
+```<b>git clone git_url </b>```
 
 ### step 2
 
 go to crm folder and run command 
 
-```python manage.py runserver ```
+```<b>python manage.py runserver</b> ```
 
 ### step 3
 
 to access database give command
 
-``` python manage.py makemigrations ```
+``` <b>python manage.py makemigrations</b> ```
 
-``` pythom manage.py migrate ```
+``` <b>pythom manage.py migrate</b> ```
 
 ### step 4 (optional)
 
