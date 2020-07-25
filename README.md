@@ -4,21 +4,21 @@
 ### step 1
 
 download/ clone this project from github
-```<b>git clone git_url </b>```
+```git clone git_url ```
 
 ### step 2
 
 go to crm folder and run command 
 
-```<b>python manage.py runserver</b> ```
+```python manage.py runserver ```
 
 ### step 3
 
 to access database give command
 
-``` <b>python manage.py makemigrations</b> ```
+``` python manage.py makemigrations ```
 
-``` <b>pythom manage.py migrate</b> ```
+``` pythom manage.py migrate ```
 
 ### step 4 (optional)
 
