@@ -14,7 +14,7 @@ go to crm folder and run command
 
 ### step 3
 
-to access database give command
+to access database, run command
 
 ``` python manage.py makemigrations ```
 
